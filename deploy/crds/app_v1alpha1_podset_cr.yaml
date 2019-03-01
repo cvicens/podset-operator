@@ -1,0 +1,9 @@
+apiVersion: app.cvicens.com/v1alpha1
+kind: PodSet
+metadata:
+  name: example-podset
+spec:
+  # Old property example
+  # size: 3
+  # New property
+  replicas: 3
